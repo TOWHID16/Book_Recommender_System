@@ -88,7 +88,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 <b>Bash</b>
 
-```python app.py```
+```python app.py```</br>
 Open your web browser and navigate to ```http://127.0.0.1:5000``` to see the application.
 
 ## Acknowledgements
