@@ -61,36 +61,35 @@ When a user selects a book, the system retrieves the top 5 most similar books fr
 ## How to Run This Project Locally
 To set up and run this project on your local machine, follow these steps:
 
-<b>1. Clone the repository:</b>
+1. **Clone the repository:**
+```Bash
 
-<b>Bash<b>
+https://github.com/TOWHID16/Book_Recommender_System.git 
+cd your-repo-name </br>
+```
 
-```https://github.com/TOWHID16/Book_Recommender_System.git``` </br>
-```cd your-repo-name``` </br>
+2. **Create a virtual environment:**
 
+```Bash
 
-<b>2. Create a virtual environment:</b>
-
-<b>Bash</b>
-
-```python -m venv venv``` </br>
+python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
+3. **Install the required dependencies:**
 
-<b>3. Install the required dependencies:</b>
+```Bash
 
-<b>Bash</b>
+pip install -r requirements.txt
+```
 
-```pip install -r requirements.txt```
+4. **Run the Flask application:**
 
+```Bash
 
-<b>4. Run the Flask application:</b>
-
-<b>Bash</b>
-
-```python app.py```</br>
+python app.py
 Open your web browser and navigate to ```http://127.0.0.1:5000``` to see the application.
-
+```
 ## Acknowledgements
 This project is based on the Book-Crossing Dataset.
 
